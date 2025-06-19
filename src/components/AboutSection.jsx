@@ -1,4 +1,5 @@
 import React from "react";
+import aboutImage from '../assets/baba-weigh-bridge-bilal-nagar-hyderabad-weighbridge-services-0mXayyWQis.jpg';
 
 export default function AboutSection() {
   return (
@@ -69,7 +70,7 @@ export default function AboutSection() {
           {/* Image - Right side */}
           <div className="relative h-full min-h-[400px] rounded-2xl overflow-hidden shadow-xl">
             <img
-              src="/src/assets/baba-weigh-bridge-bilal-nagar-hyderabad-weighbridge-services-0mXayyWQis.jpg"
+              src={aboutImage}
               alt="BABA WEIGH BRIDGE Facility"
               className="w-full h-full object-cover"
               onError={(e) => {
