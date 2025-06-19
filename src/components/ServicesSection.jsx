@@ -42,23 +42,23 @@ export default function ServicesSection() {
     }
   ];
   return (
-    <section id="services" className="py-20 bg-gradient-to-b from-white via-sky-50 to-sky-100 transition-all duration-300">
+    <section id="services" className="py-20 bg-gradient-to-b from-indigo-300 via-sky-50 to-sky-200 transition-all duration-300">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <h3 className="text-4xl font-extrabold text-emerald-900 text-center mb-14 drop-shadow-lg">Our Premium Services</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
             {services.map(({ title, desc, icon: Icon, color }, idx) => (
               <AnimatedItem
                 key={idx}
-                className="group relative p-8 rounded-2xl bg-white/20 backdrop-blur-xl border border-white/15 shadow-lg hover:shadow-2xl transform-gpu transition-all duration-300 hover:-translate-y-2"
+                className="group relative p-10 rounded-3xl bg-white/20 backdrop-blur-xl border border-white/15 shadow-lg hover:shadow-2xl transform-gpu transition-all duration-300 hover:-translate-y-2"
               >
                 {/* Icon bubble */}
                 <div className={`mb-5 w-14 h-14 rounded-full bg-gradient-to-br ${color} flex items-center justify-center text-white shadow-lg`}>
                   <Icon className="w-7 h-7" />
                 </div>
-                <h4 className="font-semibold text-lg text-emerald-900 mb-2 group-hover:text-red-600 transition-colors duration-300">
+                <h5 className="font-semibold text-xl text-emerald-900 mb-2 group-hover:text-red-600 transition-colors duration-300">
                   {title}
-                </h4>
-                <p className="text-sm text-blue-900/80 leading-relaxed">
+                </h5>
+                <p className="text-lg text-blue-900/80 leading-relaxed">
                   {desc}
                 </p>
                </AnimatedItem>

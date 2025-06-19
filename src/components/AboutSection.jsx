@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AboutSection() {
   return (
-    <section id="about" className="py-16 bg-blue-100/80 transition-all duration-300 relative overflow-hidden">
+    <section id="about" className="py-20 bg-gradient-to-b from-white via-indigo-300 to-sky-200 transition-all duration-300 relative overflow-hidden">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-extrabold text-blue-900 mb-4">About Our Facility & Expertise</h2>

@@ -6,7 +6,7 @@ export default function ContactSection() {
   const companyName = "BABA WEIGH BRIDGE";
   const address = "8-13-125, Nh 44, Bilal Nagar, Nawab Saheb Kunta, Opposite Mir Alam Tank, Bilal Nagar-500062";
   return (
-    <section id="contact" className="py-16 bg-blue-100/60 transition-all duration-300">
+    <section id="contact" className="py-16 bg-cyan-800/60 transition-all duration-300">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-extrabold text-blue-900 mb-4">Contact Us</h2>
@@ -19,7 +19,7 @@ export default function ContactSection() {
               <h3 className="text-xl font-bold text-blue-900 mb-4">Our Address</h3>
               <p className="text-blue-900 mb-2">{address}</p>
               <h3 className="text-xl font-bold text-blue-900 mt-6 mb-4">Phone</h3>
-              <p className="text-blue-900 mb-2">+91 12345 67890</p>
+              <p className="text-blue-900 mb-2">+91 88860 00429</p>
               <h3 className="text-xl font-bold text-blue-900 mt-6 mb-4">Hours</h3>
               <p className="text-blue-900">Open 24/7</p>
             </div>
